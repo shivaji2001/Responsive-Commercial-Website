@@ -1,0 +1,39 @@
+#navigation-bar {
+    border: 1px solid black;
+}
+
+#logo {
+    margin: 0px 25px 0px 0px;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+.d-flex h1 {
+    border: 1px solid black;
+    width: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container span {
+    width: 25vw;
+    border: 1px solid black;
+}
+
+.flex-container card {
+    width: 100%;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 416px) {
+    .flex-container span {
+        width: 50vw;
+        border: 1px solid black;
+    }
+}
