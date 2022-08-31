@@ -15,25 +15,14 @@
     width: auto;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+#footer a {
+    color: inherit;
+    text-decoration: none;
 }
 
-.flex-container span {
-    width: 25vw;
-    border: 1px solid black;
-}
-
-.flex-container card {
-    width: 100%;
-    border: 1px solid black;
-}
-
-@media screen and (max-width: 416px) {
-    .flex-container span {
-        width: 50vw;
-        border: 1px solid black;
-    }
+#footer table,
+tr,
+td,
+tbody {
+    border: none;
 }
